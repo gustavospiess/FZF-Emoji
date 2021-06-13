@@ -1,4 +1,4 @@
-let s:emoji_path = expand('<sfile>:p:h') . '/emoji.json'
+let s:emoji_path = expand('<sfile>:p:h:h') . '/emoji.json'
 let s:emoji_inited = 0
 
 function! s:init_emojis_once()
